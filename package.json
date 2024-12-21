@@ -1,6 +1,15 @@
 {
-  "name": "@functions/shared",
+  "name": "shared-functions",
   "version": "1.0.0",
-  "main": "index.ts",
-  "types": "index.ts"
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "^20.10.5",
+    "typescript": "^5.1.3"
+  }
 }
